@@ -1,0 +1,65 @@
+/* common css styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+      font-family: "Inter", sans-serif;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #575757;
+    margin: 0 10px;
+}
+nav .button button {
+    border: none;
+    background: #1D4ED8;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+/* navbar end here */
+
+/* banner start here  */
+
+.banner {
+    background: url('../assets/banner.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+.banner_heading {
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+}
+.banner_heading h2 {
+    font-size: 80px;
+}
+.banner_heading button {
+    border: none;
+    background: #1D4ED8;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 200px;
+}
+.banner_heading span {
+    font-style: italic;
+}
+/* banner end here */
