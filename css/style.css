@@ -54,12 +54,51 @@ nav .button button {
     border: none;
     background: #1D4ED8;
     color: white;
-    padding: 20px 40px;
+    padding: 15px 40px;
     border-radius: 4px;
     font-weight: bold;
     margin-top: 200px;
+}
+.banner_heading button:hover {
+    background: #2563EB;
 }
 .banner_heading span {
     font-style: italic;
 }
 /* banner end here */
+
+/* meet the spekers start here  */
+
+.meet_the_speakers_heading {
+    text-align: center;
+    font-size: 40px;
+    margin: 50px 0;
+}
+.meet_the_speakers_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    border-radius: 10px;
+    row-gap: 20px;
+}
+.meet_the_speakers_card { 
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+
+.meet_the_speakers_cards h5 {
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: semi-bold;
+}
+.meet_the_speakers_card h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.card_desc {
+    padding: 20px 20px;
+    display: grid;
+    row-gap: 10px;
+}
+
+/* meet the speakers end here */
