@@ -316,3 +316,77 @@ nav .button button {
 }
 
 /* why attend end here */
+
+
+/* footer start here */
+
+.footer {
+    background: #111827;
+    color: #D1D5DB;
+    padding-top: 70px;
+}
+
+.footer-container {
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-brand img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-brand p {
+    line-height: 1.8;
+    color: #9CA3AF;
+}
+
+.footer h3 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a,
+.social-links a {
+    text-decoration: none;
+    color: #9CA3AF;
+    transition: .3s;
+}
+
+.footer-links a:hover,
+.social-links a:hover {
+    color: #3B82F6;
+}
+
+.footer-contact p {
+    margin-bottom: 12px;
+    color: #9CA3AF;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #374151;
+    text-align: center;
+    padding: 25px 0;
+    color: #9CA3AF;
+}
+
+/* footer end here */
